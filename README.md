@@ -70,7 +70,7 @@ Multiple micro-services with **db**, **MQ (Rabbit)**, **redis** and **rest** int
 
 # Tracing
 
-[Access the endpoint](http://localhost:8080/flights)
+[Access the endpoint](http://localhost:8080/voos)
 
 ![](docs/img/access-flights.png)
 
@@ -84,11 +84,6 @@ Get the trace information Using **[Jaeger](http://localhost:16686/search)** as w
 **Basic Trace**
 
 ![](docs/img/jaeger-trace.png)
-
-**Complex Trace**
-
-![](docs/img/jaeger-trace-complex.png)
-
 
 # Prometheus Metrics
 
