@@ -70,7 +70,7 @@ Multiple micro-services with **db**, **MQ (Rabbit)**, **redis** and **rest** int
 
 # Tracing
 
-[Access the endpoint](http://localhost:8080/flights)
+[Access the endpoint](http://localhost:8080/voos)
 
 ![](docs/img/access-flights.png)
 
