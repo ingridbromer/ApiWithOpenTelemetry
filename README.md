@@ -85,11 +85,6 @@ Get the trace information Using **[Jaeger](http://localhost:16686/search)** as w
 
 ![](docs/img/jaeger-trace.png)
 
-**Complex Trace**
-
-![](docs/img/jaeger-trace-complex.png)
-
-
 # Prometheus Metrics
 
 View the metrics in [prometheus](http://localhost:9090/graph?g0.expr=&g0.tab=1&g0.stacked=0&g0.range_input=1h)
