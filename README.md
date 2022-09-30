@@ -72,46 +72,37 @@ Multiple micro-services with **db**, **MQ (Rabbit)**, **redis** and **rest** int
 
 [Access the endpoint](http://localhost:8080/voos)
 
-![](docs/img/access-flights.png)
+![](docs/img/access-flights1.png)
 
 View the log and trace in [Grafana](http://localhost:3000/explore)
 
-![](docs/img/grafana-loki-trace.png)
+![](docs/img/grafana-loki-trace1.png)
 
 
 Get the trace information Using **[Jaeger](http://localhost:16686/search)** as well
 
 **Basic Trace**
 
-![](docs/img/jaeger-trace.png)
+![](docs/img/jaeger-trace1.png)
 
 # Prometheus Metrics
 
 View the metrics in [prometheus](http://localhost:9090/graph?g0.expr=&g0.tab=1&g0.stacked=0&g0.range_input=1h)
 
-![](docs/img/prometheus-metrics.png)
+![](docs/img/prometheus-metrics1.png)
 
 You can view it in [Grafana](http://localhost:3000/explore?orgId=1&left=%5B%22now-1h%22,%22now%22,%22Prometheus%22,%7B%22expr%22:%22http_server_requests_seconds_count%22,%22requestId%22:%22Q-0a6b4a46-2eeb-428a-b98d-0170a5fe4900-0A%22%7D%5D) as well
 
-![](docs/img/grafana-prom-metrics.png)
+![](docs/img/grafana-prom-metrics1.png)
 
 
 # Connecting To PostgreSQL DB
 
 [Connect](http://localhost:7070/login?next=%2F)
 
-![](docs/img/pgAdminlogin.png)
+![](docs/img/pgAdminlogin1.png)
 
-![](docs/img/pgAdmingServer.png)
+![](docs/img/pgAdmingServer1.png)
 
-![](docs/img/pgAdminDb.png)
+![](docs/img/pgAdminDb1.png)
 
-
-# Credits
-
-* [otel-demo](https://github.com/williewheeler/otel-demo)
-* [java-agent-spring-boot-example](https://github.com/objectiser/java-agent-spring-boot-example)
-
-
-# Also See
-* [Nodejs Opentelemetry Tempo](https://github.com/mnadeem/nodejs-opentelemetry-tempo)
