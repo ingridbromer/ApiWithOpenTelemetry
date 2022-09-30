@@ -64,10 +64,6 @@ There are two variations **basic** and **complex**, both version have support fo
 
 Multiple micro-services with **db** and **rest** interactions
 
-## Complex
-
-Multiple micro-services with **db**, **MQ (Rabbit)**, **redis** and **rest** interactions
-
 # Tracing
 
 [Access the endpoint](http://localhost:8080/voos)
